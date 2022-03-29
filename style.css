@@ -1,0 +1,105 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.wapper {
+  padding: 0 10%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.border {
+  border: 3px solid black;
+}
+
+.padding {
+  padding: 15px;
+}
+
+.margin {
+  margin: 10px 0;
+}
+
+/* header bar */
+
+.headerbar {
+  background-color: black;
+  color: white;
+}
+
+/* main body */
+
+.yourfeed {
+  margin: 10px 0;
+}
+
+.main {
+}
+
+/* left column */
+
+.left {
+  height: 200px;
+  width: 22%;
+  margin-right: 2.5%;
+}
+.image {
+  height: 60px;
+  width: 60px;
+}
+
+/* right column */
+
+.right {
+  height: 500px;
+  width: 73%;
+  margin-left: 2.5%;
+}
+
+.likebar {
+  margin-bottom: 15px;
+}
+
+.btn-like {
+  background-color: rgb(204, 169, 82);
+  padding: 3px 8px;
+  box-shadow: 3px 3px black;
+  margin-left: 20px;
+}
+
+/* .btn-background {
+  background-color: rgb(204, 169, 82);
+} */
