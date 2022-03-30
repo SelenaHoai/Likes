@@ -9,6 +9,8 @@
   padding: 0 10%;
 }
 
+/****** Generic Classes ******/
+
 .d-flex {
   display: flex;
 }
@@ -41,10 +43,6 @@
   flex-direction: column;
 }
 
-.border {
-  border: 3px solid black;
-}
-
 .padding {
   padding: 15px;
 }
@@ -53,19 +51,20 @@
   margin: 10px 0;
 }
 
-/* header bar */
+/******** header bar ********/
 
 .headerbar {
   background-color: black;
   color: white;
 }
 
-/* main body */
+/******************* MAIN ******************/
 
-.main {
+.border {
+  border: 3px solid black;
 }
 
-/* left column */
+/********* left column ********/
 
 .left {
   height: 200px;
@@ -74,15 +73,15 @@
 }
 
 .image {
-  height: 60px;
-  width: 60px;
+  height: 70px;
+  width: 70px;
 }
 
 .jamesdoe {
   margin-top: 20px;
 }
 
-/* right column */
+/********** right column *********/
 
 .right {
   height: 500px;
